@@ -1,0 +1,30 @@
+body{
+    background-color: bisque;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-decoration: underline;
+    color: tomato;
+}
+nav{
+    margin-top: 2.5em;
+}
+a{
+    all: unset;
+    color: white;
+    margin: 0.5em;
+    padding: 1em;
+    background-color: tomato;
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+a:hover{
+    box-shadow: 0px 2px 20px 2px rgb(255, 133, 133);
+    cursor: pointer;
+}
